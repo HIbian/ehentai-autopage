@@ -8,6 +8,7 @@
 // @match        https://e-hentai.org/s/*
 // @icon         https://www.google.com/s2/favicons?domain=exhentai.org
 // @grant        none
+// @license MIT
 // ==/UserScript==
 
 (function() {
