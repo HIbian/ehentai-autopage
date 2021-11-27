@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         自动翻页插件
+// @name         ehentai,exhentai自动翻页插件
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  自动翻页脚本
@@ -16,10 +16,10 @@
     function go_next_page(){
         var next = document.getElementById('next');
         next.click();
-    };
+    }
     function time_to_next_page(_time,_counter){
         return _counter*1000 == _time;
-    };
+    }
     console.log('this is a screpit');
     var page_div = document.createElement('div');
     page_div.innerHTML = "<span>自动翻页</span><select id='autopage'><option value='0'>关</option><option value='3000'>3s</option><option value='5000'>5s</option><option value='10000'>10s</option><option value='15000'>15s</option></select><button id='cbt'>确认</button>";
